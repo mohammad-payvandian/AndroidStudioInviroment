@@ -1,13 +1,17 @@
 package com.example.androidstudioinviroment
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Toast.makeText(this , "45", Toast.LENGTH_SHORT).show()
+        var age = 10
+        age = 20
+        val ag : Byte = 1
+        val name = "hello world"
+        println(name)
     }
 }
