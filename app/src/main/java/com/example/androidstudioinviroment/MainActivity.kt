@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import java.lang.StringBuilder
 import kotlin.math.ceil
 import kotlin.math.floor
 import kotlin.math.log
@@ -37,16 +38,26 @@ class MainActivity : AppCompatActivity() {
 //        val esm = 408
 //        Log.d("mohammad","${esm.toChar()}")
 //        (--------)
-//        val variable = " hello world"
+//        val variable = " hello world  "
 //        Log.d("mohammad","${variable.uppercase()}")
 //        Log.d("mohammad","${variable.lowercase()}")
 //        Log.d("mohammad","${variable.trim()}")
 //        Log.d("mohammad","${variable.drop(4)}")
 //        (--------)
-        val value = 300.6
-        Log.d("mohammad","${floor(value)}")
-        Log.d("mohammad","${ceil(value)}")
-        Log.d("mohammad","${round(value)}")
+//        val value = 300.6
+//        Log.d("mohammad","${floor(value)}")
+//        Log.d("mohammad","${ceil(value)}")
+//        Log.d("mohammad","${round(value)}")
+//        (--------)
+//        val js = StringBuilder()
+//        Log.d("mohammad","${js.append("875").append("dmc").insert(3,"hello")}")
+//        (--------)
+        val str = buildString {
+            append(15)
+            append(678)
+            setCharAt(2,'h')
+        }
+        Log.d("mohammad","$str")
     }
 
 }
