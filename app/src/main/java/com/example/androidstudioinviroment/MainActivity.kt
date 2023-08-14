@@ -2,6 +2,7 @@ package com.example.androidstudioinviroment
 
 import android.os.Bundle
 import android.util.Log
+import android.util.Xml
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.lang.StringBuilder
@@ -10,7 +11,9 @@ import kotlin.math.floor
 import kotlin.math.log
 import kotlin.math.round
 
+
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -86,19 +89,43 @@ class MainActivity : AppCompatActivity() {
 //        val age = readLine()
 //        Log.d("mohammad","$age")
 //        (--------)
-        Log.d("mohammad","Enter age")
-        when(val age = readln().toInt()){
-            10 -> Log.d("mohammad","a --> $age")
-            in 12 until 20 -> {
-                Log.d("mohammad","b --> $age")
-            }
-            in 22..22 -> {
-                Log.d("mohammad","c --> $age")
+//        Log.d("mohammad","Enter age")
+//        when(val age = readln().toInt()){
+//            10 -> Log.d("mohammad","a --> $age")
+//            in 12 until 20 -> {
+//                Log.d("mohammad","b --> $age")
+//            }
+//            in 22..22 -> {
+//                Log.d("mohammad","c --> $age")
+//
+//            }
+//            else -> {
+//                Log.d("mohammad","No match --> $age")
+//            }
+//        }
+//        (--------)
+//        val name = "mohammad"
+//        for (i in name.indices){
+//            Log.d("mohammad","$i => ${name[i]}")
+//        }
+//        (--------)
+//        for (i in 0..3){
+//            for (j in 1..10){
+//                if (j == 3 && i == 1){
+//                    break
+//                }
+//                Log.d("mohammad","$i, $j")
+//            }
+//        }
+//        (--------)
+//        var a = 20
+//        while (a-- > 5){
+//            var b = 1
+//            while (b++ < 10){
+//                Log.d("mohammad","$a , $b")
+//            }
+//        }
+//       (--------)
 
-            }
-            else -> {
-                Log.d("mohammad","No match --> $age")
-            }
-        }
     }
 }
