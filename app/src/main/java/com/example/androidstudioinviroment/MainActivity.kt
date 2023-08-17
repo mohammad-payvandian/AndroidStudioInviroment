@@ -14,9 +14,39 @@ import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
 
+//    fun number(a: Int, b: Int): Int {
+//        return a + b
+//    }
+//    fun create(){
+//        val sum = number(5 ,8)
+//        Log.d("mohammad","sum is = $sum")
+//    }
+//    (-------)
+//    fun string(a: String,b: String){
+//        Log.d("mohammad","a is $a, b is $b")
+//    }
+//    (-------)
+//    fun double (a : Double, b :Double): Double {
+//        return a + b
+//    }
+//    (-------)
+//    fun num (a:Int,b:Int,c:Double):Double {
+//        return a + b + c
+//    }
+//    fun sum (){
+//        val numbers = num(2,5,3.50)
+//        Log.d("mohammad","sum is $numbers")
+//    }
+//    (-------)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+//        Log.d("mohammad","${create()}")
+//        Log.d("mohammad","${string("hello","world")}")
+//        Log.d("mohammad","${double(4.83,29.297)}")
+//        Log.d("mohammad","${sum()}")
+
 //        var age = 10
 //        age = 20
 //        val ag : Byte = 1
@@ -128,4 +158,4 @@ class MainActivity : AppCompatActivity() {
 //       (--------)
 
     }
-}
+   }
