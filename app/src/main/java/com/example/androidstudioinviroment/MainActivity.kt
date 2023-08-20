@@ -14,7 +14,7 @@ import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
 
-//    fun number(a: Int, b: Int): Int {
+    //    fun number(a: Int, b: Int): Int {
 //        return a + b
 //    }
 //    fun create(){
@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","sum is $numbers")
 //    }
 //    (-------)
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -156,6 +155,50 @@ class MainActivity : AppCompatActivity() {
 //            }
 //        }
 //       (--------)
+//        val names = arrayOf("ali","mahdi")
+//        for (name in names){
+//            Log.d("mohammad","$name")
+//        }
+//        val emptyArray = arrayOf(1, 2, 3, 4, 5, 6, 7, 8)
+//
+//        val evenNumbers = emptyArray.filter { item ->
+//            item % 2 == 0
+//        }
+//       for (number in evenNumbers){
+//         Log.d("mohammad", number.toString())
+//       }
+//       (--------)
+
+//        val emptyList = listOf<Int>(1, 2, 3, 4, 5, 6)
+//        emptyList.plus(7)
+//        for (number in emptyList){
+//        Log.d("mohammad", number.toString())
+//        }
+//       (--------)
+//        val emptyListMutable = mutableListOf<Int>(1, 2, 3, 4, 5, 6)
+//        emptyListMutable.add(7)
+//        for (number in emptyListMutable) {
+//            Log.d("mohammad", number.toString())
+//        }
+//        (--------)
+//        emptyList.forEach{element ->
+//            emptyListMutable.forEach {item ->
+//                Log.d("mohammad", item.toString())
+//            }
+//        }
+//       (--------)
+//        val names = arrayOf<String>("mohammad","mahdi","ali","hasan","moein")
+//        val Mnames = names.filter { name -> name.endsWith("i") // startwith
+//        }
+//        Log.d("mohammad","$Mnames")
+//        (--------)
+
+//        val names = mutableListOf<String>("mohammad","mahdi","ali","hasan","moein","ho3ein","mohsen")
+//        Log.d("mohammad","$names")
+//        val newNames = names.filter { it.startsWith("m") }
+//            .map { it.lowercase() }
+//        Log.d("mohammad","${newNames.joinToString (separator = "--", postfix = "}}")}")//prefix
+//        (--------)
 
     }
-   }
+}
