@@ -11,9 +11,17 @@ import kotlin.math.floor
 import kotlin.math.log
 import kotlin.math.round
 
+//class MainActivity : AppCompatActivity() {
 
-class MainActivity : AppCompatActivity() {
 
+//class Person constructor(var name:String)
+//fun main(){
+//    val person = Person("mohammad")
+//    Log.d("mohammad","${person.name}")
+//    person.name = "ali"
+//    Log.d("mohammad","${person.name}")
+//}
+//    (-------)
     //    fun number(a: Int, b: Int): Int {
 //        return a + b
 //    }
@@ -38,9 +46,9 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","sum is $numbers")
 //    }
 //    (-------)
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.activity_main)
 //        Log.d("mohammad","${create()}")
 //        Log.d("mohammad","${string("hello","world")}")
 //        Log.d("mohammad","${double(4.83,29.297)}")
@@ -200,5 +208,22 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","${newNames.joinToString (separator = "--", postfix = "}}")}")//prefix
 //        (--------)
 
-    }
-}
+//        val map = mutableMapOf<String, Int>()
+//        map["mohammad"] = 20
+//        map["ali"] = 30
+//        Log.d("mohammad","$map")
+//
+//        for (key in map.keys){
+//            Log.d("mohammad","$key")
+//        }
+//        for (value in map.values) {
+//            Log.d("mohammad", "$value")
+//        }
+//        for (entry in map){
+//            Log.d("mohammad","${entry.key}=${entry.value}")
+//        }
+//        (--------)
+
+
+//    }
+// }
