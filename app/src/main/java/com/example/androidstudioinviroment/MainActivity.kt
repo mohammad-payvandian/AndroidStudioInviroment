@@ -11,17 +11,8 @@ import kotlin.math.floor
 import kotlin.math.log
 import kotlin.math.round
 
-//class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
-
-//class Person constructor(var name:String)
-//fun main(){
-//    val person = Person("mohammad")
-//    Log.d("mohammad","${person.name}")
-//    person.name = "ali"
-//    Log.d("mohammad","${person.name}")
-//}
-//    (-------)
     //    fun number(a: Int, b: Int): Int {
 //        return a + b
 //    }
@@ -46,9 +37,27 @@ import kotlin.math.round
 //        Log.d("mohammad","sum is $numbers")
 //    }
 //    (-------)
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val myCar = Car("bmv","X22",2005,"yellow")
+        Log.d("mohammad","${myCar.brand}")
+//        myCar.brand = "bmw"
+//        myCar.color = "yellow"
+//        myCar.model = "X22"
+//        myCar.year =  2005
+//        Log.d("mohammad","my model car is ${myCar.model}")
+
+//        val num = Mos()
+//        num.height = 20
+//        num.width = 20
+//        Log.d("mohammad","width is ${num.width}")
+//        Log.d("mohammad","height is ${num.height}")
+//        Log.d("mohammad","mohit is ${num.mohit()}")
+//        Log.d("mohammad","masahat is ${num.masahat()}")
+//        Log.d("mohammad","sqare is ${num.squre()}")
+
 //        Log.d("mohammad","${create()}")
 //        Log.d("mohammad","${string("hello","world")}")
 //        Log.d("mohammad","${double(4.83,29.297)}")
@@ -225,5 +234,5 @@ import kotlin.math.round
 //        (--------)
 
 
-//    }
-// }
+    }
+}
