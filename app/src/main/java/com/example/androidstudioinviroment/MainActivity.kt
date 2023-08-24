@@ -41,14 +41,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val myCar = Car("bmv","X22",2005,"yellow")
-        Log.d("mohammad","${myCar.brand}")
+        val cir = Circle(5)
+        Log.d("mohammad","${cir.print()}")
+        Log.d("mohammad","${Circle.isColor("green")}")
+
+//        val myCar = Car("bmv","X22",2005,"yellow")
+//        Log.d("mohammad","${myCar.brand}")
 //        myCar.brand = "bmw"
 //        myCar.color = "yellow"
 //        myCar.model = "X22"
 //        myCar.year =  2005
 //        Log.d("mohammad","my model car is ${myCar.model}")
-
+//        (-------)
 //        val num = Mos()
 //        num.height = 20
 //        num.width = 20
@@ -57,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","mohit is ${num.mohit()}")
 //        Log.d("mohammad","masahat is ${num.masahat()}")
 //        Log.d("mohammad","sqare is ${num.squre()}")
-
+//        (-------)
 //        Log.d("mohammad","${create()}")
 //        Log.d("mohammad","${string("hello","world")}")
 //        Log.d("mohammad","${double(4.83,29.297)}")
