@@ -232,16 +232,48 @@ class MainActivity : AppCompatActivity() {
 //            Log.d("mohammad","${entry.key}=${entry.value}")
 //        }
 //        (--------)
-        val a :String = "hello  "
-        val b :Int = 29
-        val c :String? = null
-        Log.d("mohammad","$a")
-        Log.d("mohammad","$b")
-        Log.d("mohammad","${c.plus("98")}")
-        if (b == 25)
-            Log.d("mohammad","$b")
-        else Log.d("mohammad","false")
+//        val a :String = "hello  "
+//        val b :Int = 29
+//        val c :String? = null
+//        Log.d("mohammad","$a")
+//        Log.d("mohammad","$b")
+//        Log.d("mohammad","${c.plus("98")}")
+//        if (b == 25)
+//            Log.d("mohammad","$b")
+//        else Log.d("mohammad","false")
 //        (--------)
-        
+
+//        val a = 50
+//        val b = 40
+//        if ((a > b || b < a) && (a != 80)
+//        ) {
+//            Log.d("mohammad","true")
+//        }else{
+//            Log.d("mohammad","false")
+//        }
+//        (--------)
+//        val day = 1
+//        when (day){
+//            1 -> Log.d("mohammad","Saturday")
+//            2 -> Log.d("mohammad","Sunday")
+//            3 -> Log.d("mohammad","Monday")
+//            4 -> Log.d("mohammad","Tuesday")
+//            5 -> Log.d("mohammad","Wednesday")
+//            6 -> Log.d("mohammad","Thursday")
+//            7 -> Log.d("mohammad","Friday")
+//            else -> Log.d("mohammad","Unknown")
+//        }
+
+//        val score = 65
+//        val result = when {
+//            score > 90 -> "Excellent"
+//            score > 80 -> "Very good"
+//            score > 70 -> "Good"
+//            score > 60 -> "Not bad"
+//            score > 50 -> "Needs improvement"
+//            else -> "Bad"
+//        }
+//        Log.d("mohammad","result : $result ")
+//        (--------)
     }
 }
