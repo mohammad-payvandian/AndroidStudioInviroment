@@ -263,7 +263,7 @@ class MainActivity : AppCompatActivity() {
 //            7 -> Log.d("mohammad","Friday")
 //            else -> Log.d("mohammad","Unknown")
 //        }
-
+//        (--------)
 //        val score = 65
 //        val result = when {
 //            score > 90 -> "Excellent"
@@ -275,5 +275,21 @@ class MainActivity : AppCompatActivity() {
 //        }
 //        Log.d("mohammad","result : $result ")
 //        (--------)
+
+//        var index = 1
+//        while (index <= 10){
+//            Log.d("mohammad","Number : $index")
+//            index ++
+//        }
+//        Log.d("mohammad","While Finished")
+
+//        var index2 = 10
+//        do {
+//            Log.d("mohammad","number : $index2")
+//            index2--
+//        }while (index2 >= 1)
+//        Log.d("mohammad","Do While Finished")
+//        (--------)
+
     }
 }
