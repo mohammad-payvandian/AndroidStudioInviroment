@@ -282,6 +282,7 @@ class MainActivity : AppCompatActivity() {
 //            index ++
 //        }
 //        Log.d("mohammad","While Finished")
+//        (--------)
 
 //        var index2 = 10
 //        do {
@@ -291,5 +292,61 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","Do While Finished")
 //        (--------)
 
+//        var i = 1
+//        while (i <= 10){
+//            if(i == 7){
+//                break
+//            }
+//            Log.d("mohammad","Number is $i")
+//            i++
+//        }
+//        Log.d("mohammad","Loop is finished")
+//        (--------)
+//        var i = 1
+//        while (i <= 10){
+//            if(i == 5){
+//                i++
+//                continue
+//            }
+//            Log.d("mohammad","Number is $i")
+//            i++
+//        }
+//        Log.d("mohammad","Loop is finished")
+//        (--------)
+
+//        val items = intArrayOf(20, 45, 100, 70, 85, 500, 60)
+//        Log.d("mohammad","${items.size}")
+//        var x = 0
+//        while (x < items.size){
+//            Log.d("mohammad","${items[x]}")
+//            x++
+//        }
+//        Log.d("mohammad","---------------")
+//        items[1] = 6400
+//        items[2] = 8900
+//        var y = 0
+//        while (y < items.size){
+//            Log.d("mohammad","${items[y]}")
+//            y++
+//        }
+//        (--------)
+//        val sport = arrayOf("Football","Golf","Tennis","Boxing")
+//        Log.d("mohammad","${sport.size}")
+//        var num = 0
+//        while (num < sport.size) {
+//            Log.d("mohammad", "${sport[num]}")
+//            num++
+//        }
+//        (--------)
+
+//        val sports = arrayOf("Football","Golf","Tennis","Boxing","Basketball")
+//        for (items in sports ){
+//            Log.d("mohammad","Name sport is $items")
+//        }
+//        (--------)
+
+        for (i in 0 until 10){
+            Log.d("mohammad","Number : $i")
+        }
     }
 }
