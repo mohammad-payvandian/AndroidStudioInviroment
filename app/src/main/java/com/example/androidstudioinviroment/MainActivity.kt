@@ -13,7 +13,7 @@ import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
 
-    //    fun number(a: Int, b: Int): Int {
+//     fun number(a: Int, b: Int): Int {
 //        return a + b
 //    }
 //    fun create(){
@@ -37,14 +37,27 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","sum is $numbers")
 //    }
 //    (-------)
+
+    fun mini(a: Int, b :Int, c :Int){
+        if (a < b && a < c){
+            Log.d("mohammad","$a")
+        }else if (b < a && b < c){
+            Log.d("mohammad","$b")
+        }else
+            Log.d("mohammad","$c")
+
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        mini(20,40,4)
 
 //        val cir = Circle(5)
 //        Log.d("mohammad","${cir.print()}")
 //        Log.d("mohammad","${Circle.isColor("green")}")
 //        (-------)
+
 //        val myCar = Car("bmv","X22",2005,"yellow")
 //        Log.d("mohammad","${myCar.brand}")
 //        myCar.brand = "bmw"
@@ -345,8 +358,10 @@ class MainActivity : AppCompatActivity() {
 //        }
 //        (--------)
 
-        for (i in 0 until 10){
-            Log.d("mohammad","Number : $i")
-        }
+//        for (i in 0 until 10){
+//            Log.d("mohammad","Number : $i")
+//        }
+//        (--------)
+
     }
 }
