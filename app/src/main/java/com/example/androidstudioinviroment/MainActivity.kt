@@ -38,20 +38,20 @@ class MainActivity : AppCompatActivity() {
 //    }
 //    (-------)
 
-    fun mini(a: Int, b :Int, c :Int){
-        if (a < b && a < c){
-            Log.d("mohammad","$a")
-        }else if (b < a && b < c){
-            Log.d("mohammad","$b")
-        }else
-            Log.d("mohammad","$c")
-
-    }
+    //    fun mini(a: Int, b :Int, c :Int){
+//        if (a < b && a < c){
+//            Log.d("mohammad","$a")
+//        }else if (b < a && b < c){
+//            Log.d("mohammad","$b")
+//        }else
+//            Log.d("mohammad","$c")
+//
+//    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mini(20,40,4)
+//        mini(20,40,4)
 
 //        val cir = Circle(5)
 //        Log.d("mohammad","${cir.print()}")
@@ -362,6 +362,40 @@ class MainActivity : AppCompatActivity() {
 //            Log.d("mohammad","Number : $i")
 //        }
 //        (--------)
-
+//        val a = 200.86
+//        Log.d("mohammad","$a")
+//        val b = a.toInt()
+//        Log.d("mohammad","$b")
+//        (--------)
+//        val input = readLine()
+//        Log.d("mohammad","your number :$input")
+//        (--------)
+//        for (i in 0..9) {
+//            for (j in 0..9) {
+//                if (i != j)
+//                    Log.d("mohammad", "0")
+//                else
+//                    Log.d("mohammad", "1")
+//            }
+//        }
+//        (--------)
+//        val a = readln()
+//        val b = readln()
+//        val aInt = a.toInt()
+//        val bInt = b.toInt()
+//        if (aInt % bInt == 0)
+//            Log.d("mohammad","Yes")
+//        else
+//            Log.d("mohammad","No")
+//        (--------)
+//
+//        val str = "Mohammad Peyvandian"
+//        Log.d("mohammad","$str")
+//        Log.d("mohammad","${str.uppercase()}")
+//        Log.d("mohammad","${str.lowercase()}")
+//        Log.d("mohammad","${str.substring(0..5)}")
+//        Log.d("mohammad","${str.substring(6)}")
+//        Log.d("mohammad","${str.indexOf("i")}")
+//        (--------)
     }
 }
