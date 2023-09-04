@@ -5,6 +5,8 @@ import android.util.Log
 import android.util.Xml
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.androidstudioinviroment.data.Rectangle
+import com.example.androidstudioinviroment.data.Square
 import java.lang.StringBuilder
 import kotlin.math.ceil
 import kotlin.math.floor
@@ -52,6 +54,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        mini(20,40,4)
+
+//        (-------)
+        val rect = Rectangle(20,30)
+        val squr = Square(50)
+
+        Log.d("mohammad","rect area: ${rect.Area()}")
+        Log.d("mohammad","rect env: ${rect.Environment()}")
+
+        Log.d("mohammad","squr  area: ${squr.Area()}")
+        Log.d("mohammad","squr env: ${squr.Environment()}")
 
 //        val cir = Circle(5)
 //        Log.d("mohammad","${cir.print()}")
@@ -387,8 +399,8 @@ class MainActivity : AppCompatActivity() {
 //            Log.d("mohammad","Yes")
 //        else
 //            Log.d("mohammad","No")
+
 //        (--------)
-//
 //        val str = "Mohammad Peyvandian"
 //        Log.d("mohammad","$str")
 //        Log.d("mohammad","${str.uppercase()}")
