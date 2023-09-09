@@ -56,14 +56,14 @@ class MainActivity : AppCompatActivity() {
 //        mini(20,40,4)
 
 //        (-------)
-        val rect = Rectangle(20,30)
-        val squr = Square(50)
-
-        Log.d("mohammad","rect area: ${rect.Area()}")
-        Log.d("mohammad","rect env: ${rect.Environment()}")
-
-        Log.d("mohammad","squr  area: ${squr.Area()}")
-        Log.d("mohammad","squr env: ${squr.Environment()}")
+//        val rect = Rectangle(20,30)
+//        val squr = Square(50)
+//
+//        Log.d("mohammad","rect area: ${rect.Area()}")
+//        Log.d("mohammad","rect env: ${rect.Environment()}")
+//
+//        Log.d("mohammad","squr  area: ${squr.Area()}")
+//        Log.d("mohammad","squr env: ${squr.Environment()}")
 
 //        val cir = Circle(5)
 //        Log.d("mohammad","${cir.print()}")
@@ -408,6 +408,13 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","${str.substring(0..5)}")
 //        Log.d("mohammad","${str.substring(6)}")
 //        Log.d("mohammad","${str.indexOf("i")}")
+//        (--------)
+        for (i in 0 .. 20){
+            if (i % 2 == 0)
+                Log.d("mohammad","Number even :$i")
+            else
+                Log.d("mohammad","Number odd :$i")
+        }
 //        (--------)
     }
 }
