@@ -409,12 +409,22 @@ class MainActivity : AppCompatActivity() {
 //        Log.d("mohammad","${str.substring(6)}")
 //        Log.d("mohammad","${str.indexOf("i")}")
 //        (--------)
-        for (i in 0 .. 20){
-            if (i % 2 == 0)
-                Log.d("mohammad","Number even :$i")
-            else
-                Log.d("mohammad","Number odd :$i")
-        }
+//        for (i in 0 .. 20){
+//            if (i % 2 == 0)
+//                Log.d("mohammad","Number even :$i")
+//            else
+//                Log.d("mohammad","Number odd :$i")
+//        }
 //        (--------)
+        val list = arrayListOf<Int>(23,40,358,100,589)
+        Log.d("mohammad","$list")
+        Log.d("mohammad","${list.size}")
+        Log.d("mohammad","${list.add(300)}")
+        Log.d("mohammad","$list")
+        Log.d("mohammad","${list.remove(40)}")
+        Log.d("mohammad","$list")
+        Log.d("mohammad","${list.removeAt(3)}")
+        Log.d("mohammad","$list")
+
     }
 }
