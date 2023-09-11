@@ -448,5 +448,6 @@ class MainActivity : AppCompatActivity() {
 //        char.addAll(char2)
 //        Log.d("mohammad","$char")
 
+
     }
 }
