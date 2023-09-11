@@ -1,5 +1,6 @@
 package com.example.androidstudioinviroment
 
+import android.icu.text.LocaleDisplayNames
 import android.os.Bundle
 import android.util.Log
 import android.util.Xml
@@ -416,15 +417,36 @@ class MainActivity : AppCompatActivity() {
 //                Log.d("mohammad","Number odd :$i")
 //        }
 //        (--------)
-        val list = arrayListOf<Int>(23,40,358,100,589)
-        Log.d("mohammad","$list")
-        Log.d("mohammad","${list.size}")
-        Log.d("mohammad","${list.add(300)}")
-        Log.d("mohammad","$list")
-        Log.d("mohammad","${list.remove(40)}")
-        Log.d("mohammad","$list")
-        Log.d("mohammad","${list.removeAt(3)}")
-        Log.d("mohammad","$list")
+//        val list = arrayListOf<Int>(23,40,358,100,589)
+//        Log.d("mohammad","$list")
+//        Log.d("mohammad","${list.size}")
+//        Log.d("mohammad","${list.add(300)}")
+//        Log.d("mohammad","$list")
+//        Log.d("mohammad","${list.remove(40)}")
+//        Log.d("mohammad","$list")
+//        Log.d("mohammad","${list.removeAt(3)}")
+//        Log.d("mohammad","$list")
+
+//        (--------)
+//        val arr = arrayListOf(46,68,90,4357)
+//        Log.d("mohammad","ArrayListOf = $arr")
+//        arr.iterator().forEach {
+//            Log.d("mohammad","$it")
+//        }
+//        (--------)
+
+//        val char = arrayListOf('a', 'b', 'c', 'd', 'e', 'g')
+//        Log.d("mohammad","Char1 = $char")
+//        char.add(2,'r')
+//        char.removeAt(5)
+//        Log.d("mohammad","${char.indexOf('c')}")
+//        char.forEach {
+//            Log.d("mohammad","$it")
+//        }
+//        val char2 = arrayListOf('s', 'v', 'm', 'k')
+//        Log.d("mohammad","Char2 = $char2")
+//        char.addAll(char2)
+//        Log.d("mohammad","$char")
 
     }
 }
